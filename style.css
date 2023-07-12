@@ -80,41 +80,44 @@
 
 .first-item {
     width: 364px;
-height: 438px;
+    height: 438px;
     background-color: rgba(167, 33, 98, 0.15);
-    border-radius: 300px 300px 0px 0px;   
+    border-radius: 300px 300px 0px 0px;
 }
-#first-fpic{
+
+#first-fpic {
     height: 300px;
     padding-top: 138px;
 }
 
 .second-item {
     width: 364px;
-height: 438px;
+    height: 438px;
     background-color: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
 }
-#second-fpic{
+
+#second-fpic {
     height: 300px;
     padding-top: 138px;
 }
 
 .third-item {
     width: 364px;
-height: 438px;
+    height: 438px;
     background-color: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
 }
-#third-fpic{
+
+#third-fpic {
     height: 300px;
     padding-top: 138px;
 }
-.hot-deal{
+
+.hot-deal {
     background-color: rgba(229, 84, 115, 0.05);
     padding-top: 120px;
     display: flex;
-    position: absolute;
     justify-content: space-around;
     align-items: center;
     text-align: center;
@@ -122,22 +125,73 @@ height: 438px;
     height: 450px;
     margin-top: 120px;
 }
-.hot-title{
+
+.hot-title {
     color: rgba(39, 39, 39, 1);
     font-size: 30px;
     font-weight: 700;
     padding-top: 150px;
     padding-bottom: 20px;
 }
-.hot-description{
+
+.hot-description {
     color: rgba(39, 39, 39, 0.6);
     font-size: 18px;
     font-weight: 300;
     padding-bottom: 30px;
 }
-.deal-container{
+
+.deal-container {
     padding-left: 70px;
 }
-.hot-deal-pic{
+
+.hot-deal-pic {
     padding-right: 100px;
+}
+
+.social {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.social-title {
+
+    color: rgba(39, 39, 39, 1);
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.social-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.social-pic {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.first-social-pic {
+    width: 272px;
+    height: 300px;
+}
+
+.second-social-pic {
+    width: 272px;
+    height: 300px;
+}
+
+.third-social-pic {
+    width: 272px;
+    height: 300px;
+}
+
+.fourth-social-pic {
+    width: 272px;
+    height: 300px;
 }

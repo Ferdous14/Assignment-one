@@ -44,7 +44,7 @@
 }
 
 .btn {
-    padding: 15px 30px;
+    padding: 12px 30px;
     background-color: rgba(229, 84, 115, 1);
     color: white;
     border: 0;
@@ -130,7 +130,6 @@
     color: rgba(39, 39, 39, 1);
     font-size: 30px;
     font-weight: 700;
-    padding-top: 150px;
     padding-bottom: 20px;
 }
 
@@ -194,4 +193,62 @@
 .fourth-social-pic {
     width: 272px;
     height: 300px;
+}
+
+.latest-deal {
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.latest-deal-title {
+    color: rgba(39, 39, 39, 1);
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.latest-deal-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.email {
+    width: 450px;
+    height: 35px;
+}
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgba(17, 16, 16, 1);
+}
+.footer-title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+.footer-title span{
+    color: rgba(229, 84, 115, 1)
+    
+}
+.footer-description{
+   color: rgba(255, 255, 255, 0.90);
+}
+
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    margin-top: 15px;
 }
